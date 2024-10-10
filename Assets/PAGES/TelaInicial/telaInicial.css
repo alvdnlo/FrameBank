@@ -1,0 +1,120 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f8f8f8 ;
+    color:  #36008d;
+    font-size: x-large;
+}
+.saldo {
+    font-size: 24px;
+}
+.eye-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 0;
+}
+.eye-icon {
+    width: 24px;
+    height: 24px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    border: 2px solid  #36008d;
+    cursor: pointer;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid  #36008d;
+}
+
+.profile p {
+    margin: 10px 0;
+}
+
+.saldo {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid  #36008d;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.buttons .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50px;
+    margin: 10px 0;
+    border: 2px solid  #36008d;
+    border-radius: 10px;
+}
+
+.btn img {
+    margin-right: 10px;
+}
+
+.help {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50px;
+    margin-top: auto;
+    border: 2px solid  #36008d;
+    border-radius: 10px;
+}
+
+.help img {
+    margin-right: 10px;
+}
+
+.btnRed {
+    background-color: red;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50px;
+    margin: 10px 0;
+    border: 2px solid;
+    border-radius: 10px;
+}
+
+.btnGreen {
+    background-color: rgb(0, 77, 22);
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 50px;
+    margin: 10px 0;
+    border: 2px solid;
+    border-radius: 10px;
+}
